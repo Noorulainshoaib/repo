@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive website using bootstrap</title>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+  <header>
+  <nav class="navbar navbar-expand-lg navbar-light bg-white px-4 border-bottom fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand fs-2" href="#">NS-<span class="text-info">Tour</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5 text-center">
+          <li class="nav-item">
+            <a class="nav-link active text-primary" aria-current="page" href="../index..html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../bootstrap copy of front wholepg/bootstrap abutus/about.html">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Tour
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="../bootstrap copy of front wholepg/bootstrap final project/summer.html">Summer Packages</a></li>
+              <li><a class="dropdown-item" href="../bootstrap copy of front wholepg/bootstrap tour pg2/winter.html">Winter Packages</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="../bootstrap copy of front wholepg/bootstrap tour pg 3/hotel.html">Hotels</a></li>
+            </ul>
+            <li class="nav-item">
+              <a class="nav-link" href="../bootstrap copy of front wholepg/bootstrapcontct/contact.html">Contact</a>
+            </li>
+          </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000" src="https://img.lovepik.com/free-template/bg/20190820/bg/2b941b3c252b1.png_list.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-md-block">
+          <h5>Hurry Up! Don't Miss The Chance</h5>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img  src="https://thumbs.dreamstime.com/b/lets-go-travel-banner-vector-illustration-template-glasses-camera-cocktails-tickets-flat-style-design-tourism-concept-155242395.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-md-block">
+          <h5>Hurry Up! Don't Miss The Chance</h5>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img  src="https://thumbs.dreamstime.com/b/flying-plane-blue-sky-banner-background-tropical-leaves-toy-hand-flies-to-travel-summer-vacation-relaxation-tours-222613249.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-md-block">
+          <h5>Hurry Up! Don't Miss The Chance</h5>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</header>
+
+<section class="about my-5">
+  <div class="container">
+    <div class="text-center">
+    <h1 data-aos="fade-down"data-aos-easing="linear"data-aos-duration="1500">About <span class="text-info">Us</span></h1>
+     <hr / class="w-25 m-auto">
+    </div>
+
+    <div class="row">
+      <div class="col-sm-12 col-md-6 col-lg-6 col-12">
+     <h1>What Do You Want To Know?</h1>
+     <p class="p-2">
+      Welcome to our NS-tour website! We're thrilled to offer you the opportunity to explore some of the most breathtaking destinations around the world. Whether you're a seasoned traveler or just starting out, we have something for everyone.
+     </p>
+     <button type="button" class="btn btn-info mb-5">More About US</button>
+
+     <div class="accordion" id="accordionPanelsStayOpenExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+            Details
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+          <div class="accordion-body">
+            <strong>Our tours are carefully crafted to ensure that you have the time of your life. We don't just show you the sights - we immerse you in the local culture so you can truly experience everything a destination has to offer.</strong> 
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+            Plan A Trip
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+          <div class="accordion-body">
+            <strong>We understand that planning a trip can be stressful, which is why we take care of all the details so you can sit back, relax, and enjoy the ride. From transportation and accommodations to activities and meals, we've got it covered.</strong> 
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+           Book
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+          <div class="accordion-body">
+            <strong>So what are you waiting for? Book your next adventure with us today and get ready for an unforgettable journey filled with laughter, learning, and new friendships. Let's go!</strong>
+          </div>
+        </div>
+      </div>
+    </div>
+      </div>
+    </div>
+       <div class="col-sm-12 col-md-6 col-lg-6 col-12 m-auto text-end">
+      <img  data-aos="flip-right" src="https://cdn.pixabay.com/photo/2018/08/16/08/39/hallstatt-3609863__340.jpg" class="img-fluid img-thumbnail">
+       </div>
+  </div>
+</div>
+</section>
+<sectiom class="footer bottom-fix">
+  <div class="social">
+    <a style=" text-decoration: none; color: purple; height: 50px;" class="link-dark " href="#" class="facebook"><i style="font-size: xx-large;  padding-right : 4px; margin: 4px;" class="bx bxl-instagram"></i></a>
+    <a style=" text-decoration: none; color: purple; height: 50px;" class="link-dark " href="#" class="facebook"><i style="font-size: xx-large;  padding-right : 4px; margin: 4px;" class="bx bxl-whatsapp"></i></a>
+    <a style=" text-decoration: none; color: purple; height: 50px;" class="link-dark " href="#" class="facebook"><i style="font-size: xx-large;  padding-right : 4px; margin: 4px;" class="bx bxl-twitter"></i></a>
+    <a style=" text-decoration: none; color: purple; height: 50px;" class="link-dark "href="#" class="facebook"><i style="font-size: xx-large;   padding-right : 4px; margin: 4px;" class="bx bxl-facebook "></i></a>
+    <a style=" text-decoration: none; color: purple; height: 50px;" class="link-dark " href="#" class="facebook"><i style="font-size: xx-large;  padding-right : 4px; margin: 4px;" class="bx bxl-youtube"></i></a>
+    <a style=" text-decoration: none; color: purple; height: 50px;" class="link-dark " href="#" class="facebook"><i style="font-size: xx-large;  padding-right : 4px; margin: 4px;" class="bx bxl-linkedin"></i></a>
+  </div>
+  <ul class="list">
+    <li>
+      <a href="#">Home</a>
+    </li>
+    <li>
+      <a href="#">About</a>
+    </li>
+    <li>
+      <a href="#">Tour</a>
+    </li>
+    <li>
+      <a href="#">Contact</a>
+    </li>
+  </ul>
+  <p class="copyright">
+    NS-Tour @2023
+  </p>
+</sectiom>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+AOS.init();
+</script>
+</body>
+</html>
